@@ -30,13 +30,11 @@ li{
     width: 100%;
     justify-content:space-around; 
     padding: 20px;
-    background-color: #03C03C;
-    
-   
+    background-color: #070f4e;
 }
 
 .apos{
-    color: #FF5733 ;
+    color:  #070f4e;
 }
 .nav-links{
     display: flex;
@@ -57,8 +55,8 @@ li{
 header{
     width: 100%;
     height: 100vh;
-    background-color:  #4590C9 ;
-    color: white;
+    background-color: #f5ebeb;
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,13 +87,10 @@ header{
 
 .ctn{
     padding: 8px 15px;
-    background: black;
     border-radius: 20px;
-    color: white;
+    color: black !important;
     font-weight: bold;
 }
-
-
 
 .menu-btn{
     position: absolute;
@@ -111,7 +106,7 @@ header{
 /*About*/
 
 .about{
-    background-color: #FF5733 ;
+    background-color:#3ab1c8;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -172,7 +167,7 @@ header{
     
 }
 #projects{
-    background-color:  #03C03C;
+    background-color: #2772db;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -223,7 +218,7 @@ header{
     margin-top: 30px;
 }
 .tech-stack{
-    background-color: #4590C9;;
+    background-color: #a696c8;
     min-height: 70vh;
     text-align: center;
     padding-top: 20px;
@@ -234,7 +229,7 @@ header{
 
 .tech-container{
        
-    background-color: #4590C9;;
+    background-color:#a696c8;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -261,7 +256,7 @@ header{
   .box:hover {
     transform: scale(1.2);
     cursor: pointer;
-    border: 2px   #03C03C solid;
+    border: 2px #070f4e solid;
    
   }
 
@@ -272,11 +267,12 @@ header{
 
 /*Footer*/
 footer{
-    background-color:#FF5733 ;
+    background-color: #070f4e;
     font-size: 20px;
+    color: white;
 }
 footer a{
-    color: black;
+    color: white;
 }
 
 
